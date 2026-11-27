@@ -1,0 +1,9 @@
+# Bare domain -> www, keeping the path and query string (301 = permanent).
+# One block per website. The domain must also be added in Netlify (Domain management -> Add domain alias),
+# and at the DNS provider: A record @ -> 75.2.60.5
+#
+# Format:  https://example.com/*  https://www.example.com/:splat  301!
+
+# --- tonilocopizza.com ---
+http://tonilocopizza.com/*      https://www.tonilocopizza.com/:splat   301!
+https://tonilocopizza.com/*     https://www.tonilocopizza.com/:splat   301!

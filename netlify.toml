@@ -1,0 +1,4 @@
+# entourage-redirects: one tiny Netlify site that sends the bare domains (without www)
+# of all Entourage websites to their www address. No build step, nothing else is served.
+[build]
+  publish = "public"
